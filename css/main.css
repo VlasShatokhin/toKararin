@@ -110,12 +110,8 @@ a:hover {
   font-size: 1.3em;
   width: 80px;
   margin: 0 auto;
+  background-color: rgba(229, 229, 228, 0.81);
   color: #49606C;
-  text-shadow:
-    -1px -1px 8px rgba(229, 229, 228, 0.9),
-    1px -1px 8px rgba(229, 229, 228, 0.9),
-    -1px 1px 8px rgba(229, 229, 228, 0.9),
-    1px 1px 8px rgba(229, 229, 228, 0.9);
 }
 
 .progress > progress[value] {
