@@ -1,0 +1,45 @@
+body {
+  background-color: #E5E5E4;
+  color: #1C3744;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #5289A0;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #4C9CBE;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 10px;
+}
+
+.container > .wrap {
+  padding-top: 18em;
+}
+
+.container > .wrap > h1 {
+  font-size: 3em;
+  line-height: 1.2em;
+  margin: 0 .5em .75em;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
+
+.copyright > .me {
+  color: #B3B3B3;
+  margin: 10px auto 5px auto;
+  text-align: center;
+  width: 80%;
+}
