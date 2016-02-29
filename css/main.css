@@ -77,7 +77,7 @@ a:hover {
 .container > .wrap > h1 > .heartbeat:not(:required):after, .heartbeat:not(:required):before {
   position: absolute;
   content: "";
-  background: #FB7357;
+  background: #F7917D;
 }
 
 .container > .wrap > h1 > .heartbeat:not(:required):before {
