@@ -1,2 +1,1 @@
-# toKararin
-[❤](http://vlasshatokhin.github.io/toKararin/ "❤")
+[To Kararin](http://vlasshatokhin.github.io/toKararin/ "❤")
