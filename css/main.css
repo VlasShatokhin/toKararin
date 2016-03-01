@@ -1,11 +1,11 @@
 body {
   background-color: #E5E5E4;
-  color: #1C3744;
+  color: #265a71;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: #5289A0;
+  color: #5fa3bf;
   text-decoration: none;
   transition: color 0.1s;
 }
@@ -17,25 +17,34 @@ a:hover {
 .container {
   margin: 0 auto;
   max-width: 640px;
-  padding: 0 10px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  transform-style: preserve-3d;
+  bottom: 0;
+  left: 0;
+  right: 0
 }
 
 .container > .wrap {
-  padding-top: 17em;
+  position: absolute;
+  width: 100%;
+  top: 46%;
+  transform: translateY(-50%);
 }
 
 .container > .wrap > h1 {
   font-size: 3em;
   line-height: 1.2em;
-  margin: 0 .5em .75em;
+  margin: 0 .5em .25em;
 }
 
 .copyright {
   position: fixed;
   bottom: 0;
-  left:0;
+  left: 0;
   right: 0;
+  background-color: rgba(229, 229, 228, .9);
 }
 
 .copyright > .me {
@@ -43,6 +52,7 @@ a:hover {
   margin: 10px auto 5px auto;
   text-align: center;
   width: 80%;
+  font-weight: normal;
 }
 
 @keyframes heartbeat {
@@ -108,17 +118,17 @@ a:hover {
   left: 0;
   right: 0;
   font-size: 1.3em;
-  width: 80px;
+  width: 57px;
   margin: 0 auto;
-  background-color: rgba(229, 229, 228, 0.81);
-  color: #49606C;
+  background-color: rgb(229, 229, 228);
+  color: #2d6077;
 }
 
 .progress > progress[value] {
   -webkit-appearance: none;
   appearance: none;
-  width: 60%;
-  height: 5px;
+  width: 82%;
+  height: 4px;
 }
 
 .progress > progress[value]::-webkit-progress-bar {
@@ -128,7 +138,7 @@ a:hover {
 }
 
 .progress > progress[value]::-webkit-progress-value {
-  border-radius: 5px 0 0 5px;
-  background-color: #5289A0;
+  border-radius: 5px;
+  background-color: #76b0ca;
   transition: all 0.6s;
 }
